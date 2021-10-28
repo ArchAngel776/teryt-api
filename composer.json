@@ -1,0 +1,33 @@
+{
+    "name": "gqgroup/teryt-api",
+    "type": "library",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=7.2",
+        "mrcnpdlk/teryt-api": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "8"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ],
+        "psr-4": {
+            "gq_group\\Teryt\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "gq_group\\Tests\\": "tests/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ArchAngel776",
+            "email": "karol.marciniak155@gmail.com"
+        }
+    ]
+}
